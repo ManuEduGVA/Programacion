@@ -4,7 +4,7 @@
 
 ## El Material
 
-- El material está elaborado a partir de información proporcionada por:
+El material está elaborado a partir de información proporcionada por:
 - Joan Gerard Camarena Estruch.
 - Jose Antonio Alejo.
 - Lorenzo Díaz de Haro.
