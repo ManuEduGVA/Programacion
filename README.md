@@ -13,7 +13,7 @@
 
 El mterial del que se va a realizar uso es el siguiente:
 
-- [Intelij Idea](https://www.jetbrains.com/idea/) (versión 14 o superior)
+- [Intelij Idea](https://www.jetbrains.com/idea/)
 - [Java] (Java a partir de java 11)
 - [Git](https://git-scm.com)
 - Un navegador web compatible (Chrome, Firefox, etc.)
