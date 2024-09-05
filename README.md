@@ -2,12 +2,14 @@
 
 > Este proyecto de Github recoge los contenidos y actividades que se trabajarán en el aula para el módulo de programación tanto en DAM como en DAW.
 
-## Características
+## El Material
 
-- Gestión de tareas (crear, editar, eliminar)
-- Organización por categorías
-- Prioridades personalizables
-- Interfaz de usuario simple y amigable
+- El material está elaborado a partir de información proporcionada por:
+- Joan Gerard Camarena Estruch.
+- Jose Antonio Alejo.
+- Lorenzo Díaz de Haro.
+- Vídeos y test por parte de José Manuel Romero.
+- Publicaciones en sitios web así como documentación de desarrolladores tanto de Java, Dart o Kotlin.
 
 ## Requisitos Previos
 
