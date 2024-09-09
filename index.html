@@ -23,6 +23,7 @@
             text-align: center;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
+
         header h1 {
             font-size: 3em;
             margin: 0;
@@ -39,13 +40,12 @@
             max-width: 1200px;
             margin: 50px auto;
             padding: 0 20px;
-            text-align: center;
         }
 
-        /* Menús en cajas */
+        /* Diseño responsive para las cajas */
         .cards {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajuste dinámico */
             gap: 30px;
             margin-top: 40px;
         }
@@ -58,6 +58,7 @@
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, background-color 0.3s ease;
         }
+
         .card:hover {
             transform: translateY(-10px);
             background-color: #0f0f0f;
@@ -67,11 +68,6 @@
             font-size: 1.5em;
             margin-bottom: 15px;
             color: #00cc99;
-        }
-        .container h2 {
-            font-size: 1.5em;
-            margin-bottom: 15px;
-            color: #080333;
         }
 
         .card p {
@@ -103,10 +99,32 @@
             padding: 20px 0;
             margin-top: 50px;
         }
+
         footer p {
             margin: 0;
             font-size: 0.9em;
             color: #888;
+        }
+
+        /* Diseño responsivo */
+        @media (max-width: 768px) {
+            .cards {
+                grid-template-columns: 1fr; /* Cajas en una columna en pantallas pequeñas */
+            }
+
+            header h1 {
+                font-size: 2.2em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            .card {
+                padding: 15px; /* Reducción del padding en móviles */
+            }
         }
 
     </style>
@@ -143,6 +161,7 @@
             </div>
         </div>
     </div>
+
     <div class="container">
         <h2>Actividades prácticas</h2>
         <div class="cards">
@@ -161,12 +180,12 @@
         </div>
     </div>
 
-<!-- Pie de página -->
-<footer>
-    <p>&copy; 2024 Sitio web educativo. Todos los derechos reservados.</p>
-    <p>Este proyecto está licenciado bajo la <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Licencia Apache 2.0</a>.</p>
-    <p>Puedes utilizar, modificar y distribuir este proyecto libremente bajo los términos de la licencia.</p>
-</footer>
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Sitio Web para la formación en programación. Autor Jose Manuel Romero. Todos los derechos reservados.</p>
+        <p>Este proyecto está licenciado bajo la <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Licencia Apache 2.0</a>.</p>
+        <p>Puedes utilizar, modificar y distribuir este proyecto libremente bajo los términos de la licencia.</p>
+    </footer>
 
 </body>
 </html>
