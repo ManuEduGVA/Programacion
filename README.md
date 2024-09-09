@@ -16,6 +16,6 @@ El material está elaborado a partir de información proporcionada por:
 El mterial del que se va a realizar uso es el siguiente:
 
 - [Intelij Idea](https://www.jetbrains.com/idea/)
-- [Java a partir de java 11](https://bell-sw.com/pages/downloads/#jdk-21-lts))
+- [Java a partir de java 11](https://bell-sw.com/pages/downloads/#jdk-21-lts)
 - [Git](https://git-scm.com)
 - Un navegador web compatible (Chrome, Firefox, etc.)
